@@ -1,0 +1,43 @@
+<section class="tarjeta">
+  <h2>Registrar mascota en adopción</h2>
+
+  <% if (error) { %>
+    <div class="alerta-error" role="alert">
+      <p><%= error %></p>
+    </div>
+  <% } %>
+
+  <form action="/mascotas" method="post">
+    <div class="campo">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" value="<%= valores.nombre ?? '' %>" required>
+    </div>
+
+    <div class="campo">
+      <label for="especie">Especie</label>
+      <input type="text" id="especie" name="especie" value="<%= valores.especie ?? '' %>" required>
+    </div>
+
+    <div class="campo">
+      <label for="edad">Edad (años)</label>
+      <input type="number" id="edad" name="edad" min="0" value="<%= valores.edad ?? '' %>" required>
+    </div>
+
+    <div class="campo">
+      <label for="estado">Estado</label>
+      <select id="estado" name="estado" required>
+        <option value="En adopción" <%= valores?.estado === 'En adopción' ? 'selected' : '' %>>En adopción</option>
+        <option value="Reservada" <%= valores?.estado === 'Reservada' ? 'selected' : '' %>>Reservada</option>
+        <option value="Adoptada" <%= valores?.estado === 'Adoptada' ? 'selected' : '' %>>Adoptada</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label for="descripcion">Descripción</label>
+      <textarea id="descripcion" name="descripcion" rows="4" required><%= valores.descripcion ?? '' %></textarea>
+    </div>
+
+    <button type="submit" class="boton">Guardar mascota</button>
+    <a href="/mascotas" style="margin-left: 1rem; color: #718096; text-decoration: none;">Cancelar</a>
+  </form>
+</section>

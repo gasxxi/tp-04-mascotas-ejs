@@ -1,0 +1,14 @@
+<article class="tarjeta">
+  <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <img src="<%= mascota.imagen %>" alt="Foto o silueta de <%= mascota.nombre %>" width="64" height="64">
+    <div>
+      <h2><%= mascota.nombre %></h2>
+      <p><strong>Especie:</strong> <%= mascota.especie %> · <%= mascota.edad %> año(s)</p>
+    </div>
+  </div>
+
+  <p><strong>Estado:</strong> <%= mascota.estado %></p>
+  <p style="margin: 1rem 0;"><strong>Descripción:</strong> <%= mascota.descripcion %></p>
+
+  <a href="/mascotas" class="boton">← Volver al listado</a>
+</article>

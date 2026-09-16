@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="#2b6cb0" role="img" aria-label="Silueta de huella de mascota">
+  <circle cx="19" cy="19" r="6"/>
+  <circle cx="45" cy="19" r="6"/>
+  <circle cx="11" cy="32" r="5"/>
+  <circle cx="53" cy="32" r="5"/>
+  <path d="M32 26 C22 26, 15 37, 19 48 C23 57, 41 57, 45 48 C49 37, 42 26, 32 26 Z"/>
+</svg>

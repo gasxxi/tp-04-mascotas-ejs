@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "Manchita",
+    "especie": "Conejo",
+    "edad": 2,
+    "descripcion": "Muy dócil, acostumbrado a andar suelto por la casa y comer hojas verdes.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 2,
+    "nombre": "Thor",
+    "especie": "Perro",
+    "edad": 6,
+    "descripcion": "Grandote, tranquilo y guardián. Le gusta dormir la siesta afuera.",
+    "estado": "Reservada",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 3,
+    "nombre": "Pipa",
+    "especie": "Gato",
+    "edad": 1,
+    "descripcion": "Gatita muy curiosa que le encanta jugar con pelotitas de papel.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 4,
+    "nombre": "Ciro",
+    "especie": "Perro",
+    "edad": 3,
+    "descripcion": "Mestizo super enérgico, se lleva bien con chicos y otros perros.",
+    "estado": "Adoptada",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 5,
+    "nombre": "Pelusa",
+    "especie": "Cobayo",
+    "edad": 1,
+    "descripcion": "Pequeño y asustadizo al principio, pero le encantan las caricias suaves.",
+    "estado": "En adopción",
+    "imagen": "/img/mascota.svg"
+  }
+]
